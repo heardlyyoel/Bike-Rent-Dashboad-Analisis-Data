@@ -16,7 +16,7 @@ This project analyzes bike rental trends from 2011 to 2012, exploring weather im
 
 🌐 Access Online:
 You can also access the dashboard directly from Streamlit platform without running it locally:
-👉 https://elbikedashboard.streamlit.app/
+👉 https://bikedashboardel.streamlit.app/
 
 📁 Files
 main_data.csv — Dataset used for analysis.
