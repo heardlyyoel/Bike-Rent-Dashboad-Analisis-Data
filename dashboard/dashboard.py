@@ -16,7 +16,7 @@ df = load_data()
 
 
 # Display logo
-logo_url = "https://raw.githubusercontent.com/heardlyyoel/Bike-Rent-Dashboad-Analisis-Data-dengan-Python/master/dashboard/logo.jpeg"
+logo_url = "https://raw.githubusercontent.com//github.com/heardlyyoel/Bike-Rent-Dashboad-Analisis-Data/blob/master/dashboard/logo.jpeg"
 st.sidebar.image(logo_url, width=150)
 
 # Sidebar
