@@ -8,7 +8,8 @@ st.set_page_config(page_title="Bike Sharing Dashboard", layout="wide")
 # Load data, using preprocessed data downloaded from notebook
 @st.cache_data
 def load_data():
-    df = pd.read_csv('main_data.csv')
+    url = "https://raw.githubusercontent.com/heardlyyoel/Bike-Rent-Dashboad-Analisis-Data/master/dashboard/main_data.csv"
+    df = pd.read_csv(url)
     df['dteday'] = pd.to_datetime(df['dteday'])
     return df
 
